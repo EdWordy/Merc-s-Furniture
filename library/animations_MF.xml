@@ -1,0 +1,358 @@
+<AllAnimations>
+
+	<animations>
+
+		<!-- X1 Chair (Blue) -->
+
+		<!-- X1 Chair (Blue) icon -->
+
+		<ba f="30" id="365701001" ks="1" n="X1ChairBlueIcon">
+			<bones>
+				<b id="0">
+					<pos>
+						<p col="-1" f="1" r="0" sx="1" sy="1" x="0" y="0" />
+					</pos>
+				</b>
+			</bones>
+			<items>
+				<assetPos filename="365701010" bi="0" r="0" sx="1" sy="1" vf="1:1" x="0" y="0" />
+			</items>
+		</ba>
+		 
+		<!-- X1 Chair (Blue) directional anims -->
+
+		<ba f="30" id="365701006" ks="1" n="chair01F">
+			<bones>
+				<b id="0">
+					<pos>
+						<p col="-1" f="1" r="0" sx="1" sy="1" x="0" y="0" />
+					</pos>
+				</b>
+			</bones>
+			<items>
+				<assetPos a="888" bi="0" r="0" sx="1" sy="1" vf="1:1" x="0" y="0" />
+				<assetPos filename="365701011" bi="0" r="0" sx="-1" sy="1" vf="1:1" x="1" y="17" />
+			</items>
+		</ba>
+		
+		<ba f="30" id="365701007" ks="1" n="chair01BB">
+			<bones>
+				<b id="0">
+					<pos>
+						<p col="-1" f="1" r="0" sx="1" sy="1" x="-6" y="10" />
+					</pos>
+				</b>
+			</bones>
+			<items>
+				<assetPos a="888" bi="0" r="0" sx="1" sy="1" vf="1:1" x="6" y="-10" />
+				<assetPos filename="365701013" bi="0" r="0" sx="-1" sy="1" vf="1:1" x="-1" y="1" />
+				<assetPos filename="365701012" bi="0" r="0" sx="-1" sy="1" vf="1:1" x="-8" y="3" />
+			</items>
+		</ba>
+		
+		<ba f="30" id="365701008" ks="1" n="chair01BF">
+			<bones>
+				<b id="0">
+					<pos>
+						<p col="-1" f="1" r="0" sx="1" sy="1" x="0" y="0" />
+					</pos>
+				</b>
+			</bones>
+			<items>
+				<assetPos filename="365701012" bi="0" r="0" sx="-1" sy="1" vf="1:1" x="-2" y="13" />
+			</items>
+		</ba>
+		
+		<!-- Soviet Bear motivational poster -->
+		
+		<!-- Soviet Bear direcitonal anims -->
+		
+		<ba f="30" id="365701075" ks="1" n="sovietBearL">
+			<bones>
+				<b id="0">
+					<pos>
+						<p col="-1" f="1" r="0" sx="1" sy="1" x="0" y="-5" />
+					</pos>
+				</b>
+			</bones>
+			<items>
+				<assetPos filename="365701250" bi="0" r="0" sx="1" sy="1" vf="1:1" x="-9" y="30" />
+			</items>
+		</ba>
+		
+		<ba f="30" id="365701078" ks="1" n="sovietBearR">
+			<bones>
+				<b id="0">
+					<pos>
+						<p col="-1" f="1" r="0" sx="1" sy="1" x="0" y="-5" />
+					</pos>
+				</b>
+			</bones>
+			<items>
+				<assetPos filename="365701253" bi="0" r="0" sx="1" sy="1" vf="1:1" x="9" y="30" />
+			</items>
+		</ba>		
+		<ba f="30" id="365701076" ks="1" n="sovietBearLmirror">
+			<bones>
+				<b id="0">
+					<pos>
+						<p col="-1" f="1" r="0" sx="1" sy="1" x="0" y="-5" />
+					</pos>
+				</b>
+			</bones>
+			<items>
+				<assetPos filename="365701251" bi="0" r="0" sx="1" sy="1" vf="1:1" x="-11" y="32" />
+			</items>
+		</ba>
+		
+		<!-- Soviet Bear icon -->
+		
+		<ba f="30" id="365701077" ks="1" n="sovietBearIcon">
+			<bones>
+				<b id="0">
+					<pos>
+						<p col="-1" f="1" r="0" sx="1" sy="1" x="0" y="0" />
+					</pos>
+				</b>
+			</bones>
+			<items>
+				<assetPos filename="365701252" bi="0" r="0" sx="1" sy="1" vf="1:1" x="0" y="0" />
+			</items>
+		</ba>
+
+
+
+		<!-- X1 Couch (Blue) -->
+		
+		<!-- X1 Couch (Blue) icon -->
+		
+		<ba f="30" id="365701400" ks="1" n="XlCouchBlueIcon">
+			<bones>
+				<b id="0">
+					<pos>
+						<p col="-1" f="1" r="0" sx="1" sy="1" x="0" y="0" />
+					</pos>
+				</b>
+			</bones>
+			<items>
+				<assetPos filename="365701604" bi="0" r="0" sx="1" sy="1" vf="1:1" x="0" y="0" />
+			</items>
+		</ba>		
+		
+		
+		
+		
+		<!-- X1 Couch (Blue) directional anims -->
+		
+		<ba f="30" id="365701401" ks="1" n="couch01-1B">
+			<bones>
+				<b id="0">
+					<pos>
+						<p col="-1" f="1" r="0" sx="1" sy="1" x="2" y="16" />
+					</pos>
+				</b>
+			</bones>
+			<items>
+				<assetPos a="921" bi="0" r="0" sx="1" sy="1" vf="1:1" x="10" y="-16" />
+				<assetPos filename="365701602" bi="0" r="0" sx="1" sy="1" vf="1:1" x="12" y="-6" />
+			</items>
+		</ba>
+		<ba f="30" id="365701402" ks="1" n="couch01-1F">
+			<bones>
+				<b id="0">
+					<pos>
+						<p col="-1" f="1" r="0" sx="1" sy="1" x="5" y="14" />
+					</pos>
+				</b>
+			</bones>
+			<items>
+				<assetPos a="921" bi="0" r="0" sx="1" sy="1" vf="1:1" x="-5" y="-8" />
+				<assetPos filename="365701600" bi="0" r="0" sx="1" sy="1" vf="1:1" x="-10" y="5" />
+			</items>
+		</ba>
+		<ba f="30" id="365701403" ks="1" n="couch01-2B">
+			<bones>
+				<b id="0">
+					<pos>
+						<p col="-1" f="1" r="0" sx="1" sy="1" x="1" y="10" />
+					</pos>
+				</b>
+			</bones>
+			<items>
+				<assetPos a="921" bi="0" r="0" sx="1" sy="1" vf="1:1" x="0" y="-16" />
+				<assetPos filename="365701603" bi="0" r="0" sx="1" sy="1" vf="1:1" x="10" y="-5" />
+			</items>
+		</ba>
+		<ba f="30" id="365701404" ks="1" n="couch01-2F">
+			<bones>
+				<b id="0">
+					<pos>
+						<p col="-1" f="1" r="0" sx="1" sy="1" x="-1" y="10" />
+					</pos>
+				</b>
+			</bones>
+			<items>
+				<assetPos a="921" bi="0" r="0" sx="1" sy="1" vf="1:1" x="-11" y="-10" />
+				<assetPos filename="365701601" bi="0" r="0" sx="1" sy="1" vf="1:1" x="-12" y="3" />
+			</items>
+		</ba>
+		
+		<!-- In use anims -->
+		
+				<ba f="30" id="365701405" ks="1" n="couch01-2BmF">
+			<bones>
+				<b id="0">
+					<pos>
+						<p col="-1" f="1" r="0" sx="-1" sy="1" x="0" y="0" />
+					</pos>
+				</b>
+			</bones>
+			<items>
+				<assetPos filename="365701603" bi="0" r="0" sx="1" sy="1" vf="1:1" x="11" y="5" />
+			</items>
+		</ba>
+		<ba f="30" id="365701406" ks="1" n="couch01-1Bmf">
+			<bones>
+				<b id="0">
+					<pos>
+						<p col="-1" f="1" r="0" sx="-1" sy="1" x="0" y="0" />
+					</pos>
+				</b>
+			</bones>
+			<items>
+				<assetPos filename="365701602" bi="0" r="0" sx="1" sy="1" vf="1:1" x="14" y="10" />
+			</items>
+		</ba>
+		<ba f="30" id="365701407" ks="1" n="couch01-1Bm">
+			<bones>
+				<b id="0">
+					<pos>
+						<p col="-1" f="1" r="0" sx="1" sy="1" x="4" y="15" />
+					</pos>
+				</b>
+			</bones>
+			<items>
+				<assetPos filename="365701602" bi="0" r="0" sx="1" sy="1" vf="1:1" x="10" y="-5" />
+			</items>
+		</ba>
+		<ba f="30" id="365701408" ks="1" n="couch01-2Bm">
+			<bones>
+				<b id="0">
+					<pos>
+						<p col="-1" f="1" r="0" sx="1" sy="1" x="1" y="10" />
+					</pos>
+				</b>
+			</bones>
+			<items>
+				<assetPos filename="365701603" bi="0" r="0" sx="1" sy="1" vf="1:1" x="10" y="-5" />
+			</items>
+		</ba>
+
+		<!-- Crew Locker -->
+
+		<!-- Crew Locker directional anims -->
+		
+		<ba f="30" id="365701409" ks="1" n="locker01B">
+			<bones>
+				<b id="0">
+					<pos>
+						<p col="-1" f="1" r="0" sx="1" sy="1" x="0" y="0" />
+					</pos>
+				</b>
+			</bones>
+			<items>
+				<assetPos filename="365701609" bi="0" r="0" sx="-1" sy="1" vf="1:1" x="8" y="4" />
+				<assetPos filename="365701607" bi="0" r="0" sx="-1" sy="1" vf="1:1" x="-5" y="-2" />
+				<assetPos filename="365701606" bi="0" r="0" sx="-1" sy="1" vf="1:1" x="-7" y="22" />
+			</items>
+		</ba>
+		<ba f="30" id="365701410" ks="1" n="locker01F">
+			<bones>
+				<b id="0">
+					<pos>
+						<p col="-1" f="1" r="0" sx="1" sy="1" x="0" y="0" />
+					</pos>
+				</b>
+			</bones>
+			<items>
+				<assetPos filename="365701608" bi="0" r="0" sx="-1" sy="1" vf="1:1" x="-8" y="-4" />
+				<assetPos filename="365701607" bi="0" r="0" sx="-1" sy="1" vf="1:1" x="6" y="3" />
+				<assetPos filename="365701605" bi="0" r="0" sx="-1" sy="1" vf="1:1" x="7" y="29" />
+			</items>
+		</ba>
+		
+		<!-- Crew Locker icon -->
+		
+		<ba f="30" id="365701411" ks="1" n="locker01Icon">
+			<bones>
+				<b id="0">
+					<pos>
+						<p col="-1" f="1" r="0" sx="1" sy="1" x="0" y="0" />
+					</pos>
+				</b>
+			</bones>
+			<items>
+				<assetPos filename="365701610" bi="0" r="0" sx="-1" sy="1" vf="1:1" x="0" y="0" />
+			</items>
+		</ba>
+		
+		<!-- Poster 02 motivational poster -->
+		
+		<!-- Poster 02 direcitonal anims -->
+		
+		<ba f="30" id="365701079" ks="1" n="poster02L">
+			<bones>
+				<b id="0">
+					<pos>
+						<p col="-1" f="1" r="0" sx="1" sy="1" x="0" y="-5" />
+					</pos>
+				</b>
+			</bones>
+			<items>
+				<assetPos filename="365701254" bi="0" r="0" sx="1" sy="1" vf="1:1" x="-9" y="30" />
+			</items>
+		</ba>
+		
+		<ba f="30" id="365701080" ks="1" n="poster02R">
+			<bones>
+				<b id="0">
+					<pos>
+						<p col="-1" f="1" r="0" sx="1" sy="1" x="0" y="-5" />
+					</pos>
+				</b>
+			</bones>
+			<items>
+				<assetPos filename="365701255" bi="0" r="0" sx="1" sy="1" vf="1:1" x="9" y="30" />
+			</items>
+		</ba>		
+		<ba f="30" id="365701081" ks="1" n="poster02Lmirror">
+			<bones>
+				<b id="0">
+					<pos>
+						<p col="-1" f="1" r="0" sx="1" sy="1" x="0" y="-5" />
+					</pos>
+				</b>
+			</bones>
+			<items>
+				<assetPos filename="365701251" bi="0" r="0" sx="1" sy="1" vf="1:1" x="-11" y="32" />
+			</items>
+		</ba>
+		
+		<!-- Poster 02 icon -->
+		
+		<ba f="30" id="365701082" ks="1" n="poster02Icon">
+			<bones>
+				<b id="0">
+					<pos>
+						<p col="-1" f="1" r="0" sx="1" sy="1" x="0" y="0" />
+					</pos>
+				</b>
+			</bones>
+			<items>
+				<assetPos filename="365701256" bi="0" r="0" sx="1" sy="1" vf="1:1" x="0" y="0" />
+			</items>
+		</ba>
+
+	</animations>
+
+</AllAnimations>

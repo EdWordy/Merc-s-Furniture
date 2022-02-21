@@ -1,0 +1,52 @@
+<t>
+	<!-- Y1 Chair tooltips -->
+	
+	<object_chair01_name id="365701002" pid="365701003">
+		<EN>X1 Chair (Blue)</EN>
+	</object_chair01_name>
+	<object_chair01_desc id="365701004" pid="365701005">
+		<EN>Standard X1 model chair. Now in a snazzy blue!</EN>
+	</object_chair01_desc>
+	
+	<!-- Soviet Bear tooltips -->
+	
+	<object_poster01_name id="365701150" pid="365701151">
+		<EN>Poster (Soviet Bear)</EN>
+	</object_poster01_name>
+	<object_poster01_desc id="365701152" pid="365701153">
+		<EN>Creates a motivational effect, and encourages the crew to work harder!</EN>
+	</object_poster01_desc>
+	
+	<!-- X1 Couch (Blue) tooltips -->
+	
+	<object_couch01_name id="365701500" pid="365701501">
+		<EN>X1 Couch (Blue)</EN>
+	</object_couch01_name>
+	<object_couch01_desc id="365701502" pid="365701503">
+		<EN>Standard X1 model couch with a light. Sometimes you need to sit down and relax a little. Now in blue!</EN>
+	</object_couch01_desc>
+	
+	<!-- Crew Locker tooltips -->
+	
+	<object_locker01_name id="365701504" pid="365701505">
+		<EN>Crew Locker</EN>
+	</object_locker01_name>
+	
+	<object_locker01_desc id="365701506" pid="365701507">
+		<EN>A locker, suitable for storing all raw and refined resources, as well as weapons and other commodities.
+
+Also stores food. Crew members may eat directly from the storage if no other food facility is available. You can allow or disallow this behavior from the storage information window.</EN>
+	</object_locker01_desc>
+	
+	<!-- Poster 02 tooltips -->
+	
+	<object_poster02_name id="365701154" pid="365701155">
+		<EN>Poster (Movie 1)</EN>
+	</object_poster02_name>
+	<object_poster02_desc id="365701156" pid="365701157">
+		<EN>Creates a calming effect, and encourages the crew to relax.</EN>
+	</object_poster02_desc>
+	
+	
+	
+</t>

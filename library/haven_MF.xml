@@ -1,0 +1,308 @@
+<data>
+
+	<Element>
+	
+		<!-- X1 Chair (Blue) -->
+
+		<me _annotation="X1 Chair (Blue)" alternateY="false" costGroup="869" ec="3" mid="365701000" nonSymmetrical="false" offsetRot="R0">
+				<data>
+					<l eid="2" gridOffX="0" gridOffY="0" layer="0" type="Object">
+						<element id="0" lightValue="Low" renderOnFloor="false" userTogglable="false" walkGridCost="255">
+							<definedStates>
+								<l playAnimation="false" state="Standby">
+									<r0 aid="chair01F" flx="false" />
+									<r90 aid="null" flx="false" />
+									<r180 aid="chair01BB" flx="false" />
+									<r270 aid="null" flx="false" />
+									<tasks>
+										<l dir="D3" gridOffX="0" gridOffY="0" setStateInUse="false" task="Sit" usage="Both">
+											<r0offset charOffX="-1" charOffY="-5" />
+											<r180offset charOffX="1" charOffY="-1" />
+											<r180InFront x="0" y="0">
+												<front aid="chair01BF" />
+												<fullLit aid="null" />
+											</r180InFront>
+										</l>
+									</tasks>
+								</l>
+							</definedStates>
+							<features addFacilityIcons="false" inUseState="true" noPressureDmg="false" normalState="true" produceInNormal="false">
+								<rest accessAllTiles="true" isBed="false" isMedical="false" isSitRest="true" restValue="10" useAllTask="false">
+									<condition condition="2247" />
+								</rest>
+								<noiseAndComfort category="Seating" onlyWhenInuse="false">
+									<radiusBeauty leisure="5" radius="5" roomDrop="5" sleep="0" work="0" />
+								</noiseAndComfort>
+							</features>
+						</element>
+					</l>
+				</data>
+				<linked />
+				<events />
+				<objectInfo buildInstant="false" debugOnly="false" disableAirlockTest="false" disableBuildTest="false" disableRotation="false" placeInMenu="20" randomRot="false" systemPoints="0" viewMode="Normal">
+					<cu>
+						<groups>
+							<l buildTools="10" rep="869">
+								<customPrice>
+									<l _annotation="Soft block" elementId="1921" howMuch="1" />
+								</customPrice>
+							</l>
+						</groups>
+					</cu>
+					<name tid="365701002" />
+					<desc tid="365701004" />
+					<guiIcon aid="X1ChairBlueIcon" />
+					<subCat id="1506" />
+					<difficultyLevel level="1" skill="Construction" />
+				</objectInfo>
+		</me>
+			
+			
+		<!-- Soviet Bear Poster (modeled after the wall light and couch(visual beauty)) -->
+		
+		<me _annotation="Soviet Bear Poster" alternateY="false" costGroup="875" ec="4" mid="365701050" nonSymmetrical="false" offsetRot="R0">
+			<data>
+				<l eid="4" gridOffX="0" gridOffY="0" layer="0" type="Object">
+					<element id="0" collapsible="true" lightValue="Medium" renderOnFloor="false" userTogglable="true" walkGridCost="255">
+						<definedStates>
+							<l playAnimation="false" state="Standby">
+								<r0 aid="sovietBearR" flx="false" />
+								<r90 aid="sovietBearL" flx="false" />
+								<r180 aid="sovietBearLmirror" flx="false" />
+								<r270 aid="null" flx="false" />
+							</l>
+						</definedStates>
+						<features addFacilityIcons="false" inUseState="true" noPressureDmg="false" normalState="true" produceInNormal="false">
+							<stateWatchdog autoproduce="false" />
+							<noiseAndComfort category="Art" onlyWhenInuse="false">
+								<visualBeauty radius="4" work="10" comfort="20" />
+								<radiusBeauty radius="4" work="10" comfort="20" />
+							</noiseAndComfort>
+						</features>
+						<wallMount bothSides="false" type="Upper" />
+						<commonPower />
+					</element>
+				</l>
+			</data>
+			<linked />
+			<events />
+			<objectInfo buildInstant="false" debugOnly="false" disableAirlockTest="false" disableBuildTest="false" disableRotation="false" placeInMenu="4" randomRot="false" systemPoints="0" viewMode="Normal">
+				<cu>
+					<groups>
+						<l buildTools="15" rep="875">
+							<customPrice>
+								<l _annotation="Soft block" elementId="1921" howMuch="1" />
+							</customPrice>
+						</l>
+					</groups>
+				</cu>
+				<name tid="365701150" />
+				<desc tid="365701152" />
+				<guiIcon aid="sovietBearIcon" />
+				<subCat id="1506" />
+				<restrictions>
+					<l gridX="0" gridY="-1" sizeX="1" sizeY="1" type="Floor" />
+				</restrictions>
+				<difficultyLevel level="1" skill="Construction" />
+			</objectInfo>
+		</me>
+		
+		<!-- X1 Couch (Blue) -->
+		
+		<me _annotation="X1 Couch (Blue)" alternateY="false" costGroup="869" ec="4" mid="365701350" nonSymmetrical="false" offsetRot="R0">
+			<data>
+				<l eid="2" gridOffX="0" gridOffY="0" layer="0" type="Object">
+					<element id="0" lightValue="Medium" renderOnFloor="false" userTogglable="false" walkGridCost="255">
+						<definedStates>
+							<l playAnimation="false" state="Standby">
+								<r0 aid="couch01-1F" flx="false" />
+								<r90 aid="couch01-2F" flx="true" />
+								<r180 aid="couch01-2B" flx="false" />
+								<r270 aid="couch01-1B" flx="true" />
+								<tasks>
+									<l dir="D3" gridOffX="0" gridOffY="0" setStateInUse="false" task="Sit" usage="Both">
+										<r0offset charOffX="-2" charOffY="0" />
+										<r180offset charOffX="10" charOffY="-6" />
+										<r90offset charOffX="10" charOffY="-6" />
+										<r270offset charOffX="-20" charOffY="-1" />
+										<r180InFront x="0" y="0">
+											<front aid="couch01-2Bm" />
+											<fullLit aid="null" />
+										</r180InFront>
+										<r270InFront x="0" y="0">
+											<front aid="couch01-1Bmf" />
+											<fullLit aid="null" />
+										</r270InFront>
+									</l>
+								</tasks>
+							</l>
+						</definedStates>
+						<features addFacilityIcons="false" inUseState="true" noPressureDmg="false" normalState="true" produceInNormal="false">
+							<rest accessAllTiles="true" isBed="false" isMedical="false" isSitRest="true" restValue="10" useAllTask="false">
+								<condition condition="2247" />
+							</rest>
+						</features>
+					</element>
+				</l>
+				<l eid="4" gridOffX="1" gridOffY="0" layer="0" type="Object">
+					<element id="0" lightValue="Medium" renderOnFloor="false" userTogglable="false" walkGridCost="255">
+						<definedStates>
+							<l playAnimation="false" state="Standby">
+								<r0 aid="couch01-2F" flx="false" />
+								<r90 aid="couch01-1F" flx="true" />
+								<r180 aid="couch01-1B" flx="false" />
+								<r270 aid="couch01-2B" flx="true" />
+								<tasks>
+									<l dir="D3" gridOffX="0" gridOffY="0" setStateInUse="false" task="Sit" usage="Both">
+										<r0offset charOffX="-10" charOffY="-6" />
+										<r180offset charOffX="20" charOffY="-1" />
+										<r90offset charOffX="2" charOffY="0" />
+										<r270offset charOffX="-10" charOffY="-6" />
+										<r180InFront x="0" y="0">
+											<front aid="couch01-1Bm" />
+											<fullLit aid="null" />
+										</r180InFront>
+										<r270InFront x="0" y="0">
+											<front aid="couch01-2BmF" />
+											<fullLit aid="null" />
+										</r270InFront>
+									</l>
+								</tasks>
+							</l>
+						</definedStates>
+						<features addFacilityIcons="false" inUseState="true" noPressureDmg="false" normalState="true" produceInNormal="false">
+							<rest accessAllTiles="true" isBed="false" isMedical="false" isSitRest="true" restValue="10" useAllTask="false">
+								<condition condition="2247" />
+							</rest>
+							<noiseAndComfort category="Seating" onlyWhenInuse="false">
+								<radiusBeauty leisure="10" radius="5" roomDrop="10" sleep="0" work="0" />
+							</noiseAndComfort>
+						</features>
+					</element>
+				</l>
+			</data>
+			<linked />
+			<events />
+			<objectInfo buildInstant="false" debugOnly="false" disableAirlockTest="false" disableBuildTest="false" disableRotation="false" placeInMenu="21" randomRot="false" systemPoints="0" viewMode="Normal">
+				<cu>
+					<groups>
+						<l buildTools="20" rep="869">
+							<customPrice>
+								<l _annotation="Soft block" elementId="1921" howMuch="1" />
+								<l _annotation="Infrablock" elementId="162" howMuch="1" />
+							</customPrice>
+						</l>
+					</groups>
+				</cu>
+				<name tid="365701500" />
+				<desc tid="365701502" />
+				<guiIcon aid="XlCouchBlueIcon" />
+				<subCat id="1506" />
+				<restrictions>
+					<l gridX="-1" gridY="0" sizeX="1" sizeY="1" type="Floor" />
+					<l gridX="2" gridY="0" sizeX="1" sizeY="1" type="Floor" />
+				</restrictions>
+				<difficultyLevel level="1" skill="Construction" />
+			</objectInfo>
+		</me>
+		
+		<!-- Crew Locker (pulled from game code) -->
+		
+		<me alternateY="false" costGroup="0" ec="1" mid="365701351" nonSymmetrical="false" offsetRot="R0">
+			<data>
+				<l eid="1" gridOffX="0" gridOffY="0" layer="0" type="Object">
+					<element id="0" lightValue="High" renderOnFloor="false" userTogglable="false" walkGridCost="255">
+						<definedStates>
+							<l playAnimation="false" state="Standby">
+								<r0 aid="locker01F" flx="false" />
+								<r90 aid="null" flx="false" />
+								<r180 aid="locker01B" flx="false" />
+								<r270 aid="null" flx="false" />
+							</l>
+						</definedStates>
+						<features addFacilityIcons="false" inUseState="true" noPressureDmg="false" normalState="true" produceInNormal="false">
+							<stateWatchdog autoproduce="false" />
+							<stores capacity="25" starter="false">
+								<rules />
+							</stores>
+						</features>
+						<boxHatch boxX="22" boxY="1" flipR90="false" in="true" out="true" type2="false" x="1" y="10">
+							<activate activateOffX="0" activateOffY="-1" />
+						</boxHatch>
+					</element>
+				</l>
+				
+			</data>
+			<linked />
+			<events />
+			<objectInfo buildInstant="false" debugOnly="false" disableAirlockTest="false" disableBuildTest="false" disableRotation="false" placeInMenu="1" randomRot="false" systemPoints="0" viewMode="Normal">
+				<cu>
+					<groups>
+						<l buildTools="10" rep="875">
+							<customPrice>
+								<l _annotation="Infrablock" elementId="162" howMuch="1" />
+							</customPrice>
+						</l>
+					</groups>
+				</cu>
+				<name tid="365701504" />
+				<desc tid="365701506" />
+				<guiIcon aid="locker01Icon" />
+				<subCat id="1517" />
+				<difficultyLevel level="1" skill="Construction" />
+			</objectInfo>
+		</me>
+		
+		<!-- Poster 02 (modeled after the wall light and couch(visual beauty)) -->
+		
+		<me _annotation="Poster 02 (Aliens)" alternateY="false" costGroup="875" ec="4" mid="365701051" nonSymmetrical="false" offsetRot="R0">
+			<data>
+				<l eid="4" gridOffX="0" gridOffY="0" layer="0" type="Object">
+					<element id="0" collapsible="true" lightValue="Medium" renderOnFloor="false" userTogglable="true" walkGridCost="255">
+						<definedStates>
+							<l playAnimation="false" state="Standby">
+								<r0 aid="poster02R" flx="false" />
+								<r90 aid="poster02L" flx="false" />
+								<r180 aid="poster02Lmirror" flx="false" />
+								<r270 aid="null" flx="false" />
+							</l>
+						</definedStates>
+						<features addFacilityIcons="false" inUseState="true" noPressureDmg="false" normalState="true" produceInNormal="false">
+							<stateWatchdog autoproduce="false" />
+							<noiseAndComfort category="Art" onlyWhenInuse="false">
+								<visualBeauty radius="4" leisure="10" comfort="20" />
+								<radiusBeauty radius="4" leisure="10" comfort="20" />
+							</noiseAndComfort>
+						</features>
+						<wallMount bothSides="false" type="Upper" />
+						<commonPower />
+					</element>
+				</l>
+			</data>
+			<linked />
+			<events />
+			<objectInfo buildInstant="false" debugOnly="false" disableAirlockTest="false" disableBuildTest="false" disableRotation="false" placeInMenu="4" randomRot="false" systemPoints="0" viewMode="Normal">
+				<cu>
+					<groups>
+						<l buildTools="15" rep="875">
+							<customPrice>
+								<l _annotation="Soft block" elementId="1921" howMuch="1" />
+							</customPrice>
+						</l>
+					</groups>
+				</cu>
+				<name tid="365701154" />
+				<desc tid="365701156" />
+				<guiIcon aid="poster02Icon" />
+				<subCat id="1506" />
+				<restrictions>
+					<l gridX="0" gridY="-1" sizeX="1" sizeY="1" type="Floor" />
+				</restrictions>
+				<difficultyLevel level="1" skill="Construction" />
+			</objectInfo>
+		</me>		
+
+	</Element>
+	
+
+</data>
